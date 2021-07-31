@@ -1,0 +1,36 @@
+body {
+    background: #f2f2f2;
+}
+
+.card {
+    width: 300px;
+    height: 250px;
+    background: #fff;
+    border-radius: 2px;
+    margin: 20px;
+    display: inline-block;
+}
+
+.card-1 {
+    box-shadow:8px  8px 8px rgb(199, 199, 199);    
+}
+
+
+
+.card-2:hover {
+    box-shadow: 13px 13px 15px rgba(0,0,0,0.20), 13px 13px 15px rgb(0,0,0,0.40);
+
+}
+
+
+.card-3:hover {
+    border: 2px solid #bfbfbb;
+    box-shadow: 8px 8px 15px red;
+}
+
+
+
+.card-4:hover {
+    border: 1px solid #bfbfbb;
+    box-shadow: 10px 10px 5px #aaaaaa  ;    
+}
