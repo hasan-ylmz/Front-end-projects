@@ -1,0 +1,283 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+
+body {
+    background-color: black!important;
+    color: white !important;
+}
+
+.navbar .navbar-brand {
+    font-size: 25px;
+}
+
+.header .bg-dark {
+    background-color:  rgb(26, 26, 26) !important;
+}
+
+ .nav-link {
+    color: white !important;
+    text-transform: uppercase;
+    transition:color 1s ease ;
+}
+
+.nav-link:hover {
+    color: rgb(153, 152, 152) !important;
+}
+
+#headerSection {
+    background-image: linear-gradient(rgba(0,0,0, .5),rgba(0,0,0, .5)),url(https://www.nyungweforestlodge.com/wp-content/uploads/2019/12/Finding-a-new-residential-property-in-the-UAE.jpg) ;
+    background-position: center;
+    background-size: cover;
+
+}
+
+#headerSection .container {
+    height: 90vh;
+}
+
+#headerSection .row {
+    height: 90vh;
+}
+
+#headerSection button {
+    padding: .5rem 1.5rem;
+    cursor: pointerS;
+}
+
+.col-md-3 .bi {
+    font-size: 2rem ;
+}
+ 
+/* FEATURES SECTION  */
+
+.div-icon:hover {
+    color:gray;
+    cursor: pointer;
+}
+
+.div-icon {
+    transition: .4s ease;
+}
+
+.feature p {
+    font-size: 18px;
+}
+
+#aboutUs {
+    margin-top: 5rem;
+}
+
+/* OUR WORKS SECTION  */
+#aboutUs h2 {
+    border-left: 7px solid gray;
+    padding-left: 1.5rem; 
+    margin-bottom: 1.2rem;
+    font-size: 30px;
+    text-transform: uppercase; 
+}
+
+#aboutUs  .col-md-6 {
+    display: inline;
+}
+
+#aboutUs p {
+    line-height: 2rem;
+}
+
+.row .bg-dark {
+    background-color: rgb(0, 0, 0) !important;
+}
+
+.team {
+    margin-top: 5rem !important;
+}
+
+
+@media only screen and (max-width:1200px) {
+    #aboutUs p {
+        line-height: 1.4rem;
+    }
+}
+
+/* HIGH SECURITY KISMI*/ 
+
+.caseStudy {
+    background-color: rgb(0, 0, 0);
+    line-height: 28px  !important ;
+}
+
+
+.caseArea {
+    background-color: rgb(17, 17, 17);
+    margin-top: 2.5rem ;
+    margin-right: -2.5rem;
+    z-index: 100;
+    padding: 2.5rem;
+    position: relative;
+    min-height: 320px;
+}
+
+
+.caseArea  li  {
+    list-style: none;
+
+}
+
+.caseArea a {
+    color: #fff;
+    transition: .5s ease;
+    font-size: 1.1rem;
+}
+
+.caseArea a:hover {
+    font-size: 1.6rem ;
+    font-weight: 600;
+    color: rgb(119, 119, 119);
+}
+
+
+#caseStudy  h3 {
+    font-size: 18px;
+    margin:0 2.5rem;
+}
+
+.caseArea .bi{
+    font-size: 2.5rem !important;
+}
+
+.caseArea h3 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+#luxury {
+    margin-top: 4rem;
+}
+
+/* LUXURY SECTİON */
+#luxury .col-md-4 {
+    text-align: center;
+}
+
+
+#luxury  h4 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+#luxury .bi {
+    font-size: 1.4rem;
+    margin-bottom: 1.4rem;
+}
+
+#luxury p {
+    font-size: 1.2rem ;
+    font-weight: 300;
+}
+
+.imageContainer {
+    position: relative;
+    cursor: pointer;
+}
+
+.imageOverlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: gray;
+    opacity:0 ;
+    transition: .6s ease ;
+}
+
+.imageContainer:hover .imageOverlay {
+    opacity: .7;
+
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.img-text {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%  ;
+    transform: translate(-50%,-50%);
+}
+
+.col-md-8 .bi {
+    font-size: 2rem;
+    
+}
+
+/* CONTACT SESSİON */
+
+#contact {
+    margin-top: 4rem;
+}
+
+#contact .bi{
+    font-size: 2.4rem;
+    color: #fff;
+    transition: .5s ease;
+    padding:  .4rem;
+}
+
+#contact h4 ,h2 {
+    text-transform: uppercase;
+    transition: .5s ease;
+}
+
+#contact h4:hover , h2:hover{
+    color: gray;
+}
+
+#contact .bi-facebook:hover {
+    color:rgb(53, 53, 177)
+}
+
+#contact .bi-instagram:hover {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#contact .bi-twitter:hover {
+    color: #00acee
+}
+
+/* CONTACT SESSİON-2 */
+
+.input-group-lg input {
+    background-color: black;
+    opacity: 1;
+    color: white;
+}
+
+.input-group input:focus {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.input-group-lg .form-control {
+    background-color: black;
+    color: white;
+}
+
+.input-group-lg .form-control:focus {
+    background-color: black;
+    color: white;
+}
+
+.form-group {
+    margin: 2rem;
+}
+
+.d-grid .btn{
+    margin-right: 2rem;
+    margin-left: 5rem !important;
+}
+
