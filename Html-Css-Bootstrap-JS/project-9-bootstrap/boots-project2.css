@@ -1,0 +1,37 @@
+.navbar a  {
+    text-decoration: none;
+}
+
+.nav-brand  {
+    font-size:22px;
+}
+
+.navbar {
+    opacity: 0.8;
+    border-bottom:1px solid #fff ;
+}
+
+.jumbotron {
+    margin-top: 70px;
+    padding: 50px;
+}
+
+.lead a {
+    text-decoration: none;
+}
+
+
+@media all and (max-width:576px) {
+    .jumbotron {
+        margin-top: 48px;
+    }
+}
+
+body {
+    height: 1000px;
+}
+
+.list-unstyled a {
+    text-decoration: none;
+    color: rgb(51, 50, 50);
+}

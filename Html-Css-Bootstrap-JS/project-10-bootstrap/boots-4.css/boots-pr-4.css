@@ -1,0 +1,35 @@
+.bg-movies {
+    background: rgb(46, 46, 46) !important;
+}
+
+.navbar-brand  {
+    font-size: 25px !important;
+} 
+
+.nav-item {
+    padding: 0.5rem;
+}
+
+.form-control {
+    padding: 10px !important;
+}
+
+.warning-bg{
+    background-image: linear-gradient(rgba(0,0,0, .5),rgba(0,0,0,  .5)) , url(https://wallpaperaccess.com/full/782447.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.warning-bg .container {
+    height: 50vh;
+}
+
+.shows {
+    padding: 100px 0;
+}
+
+.col-8 h5 {
+    margin-top: 1.5rem;
+}
