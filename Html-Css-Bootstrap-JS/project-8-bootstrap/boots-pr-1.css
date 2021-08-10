@@ -1,0 +1,14 @@
+.text-bold {
+    font-weight: 800;
+}
+
+
+h1 {
+    margin: 4rem;
+    padding: 2rem;
+}
+
+p {
+    margin: 2rem;
+    letter-spacing: 1px;
+}
