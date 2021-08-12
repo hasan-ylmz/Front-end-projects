@@ -1,0 +1,106 @@
+/* 975 px
+
+cl-2 
+https://i.pinimg.com/originals/aa/f2/e3/aaf2e3cbd26b70be590fe542257d43d1.jpg
+
+*/
+
+.dark-bg {
+    background-color: rgb(15, 15, 15) !important;
+}
+
+.navbar-item a:hover {
+    color: #fff !important;
+}
+
+
+
+.row a {
+    text-decoration: none;
+    color: white;
+    transition: color ease;
+}
+
+.row a:hover {
+    color: rgb(75, 218, 75);
+}
+
+.row .cl-1 {
+    background-image:linear-gradient(rgba(0,0,0, .5),rgba(0,0,0, .5)),url(https://i.pinimg.com/originals/ab/14/6d/ab146de7c3b26593f3dc9291968cdc30.png);
+    background-position: center;
+    background-size: cover;
+    width: 50vh;
+    height: 50vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row .cl-2{
+    background-image:linear-gradient(rgba(0,0,0, .5),rgba(0,0,0, .5)),url(https://pbs.twimg.com/media/DEuAK31WAAAD9jg.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 50vh;
+    height: 50vh;
+}
+
+.row .cl-3{
+    background-image:linear-gradient(rgba(0,0,0, .5),rgba(0,0,0, .5)),url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/10d4d47a-40eb-4dfb-a21f-ced1200aba52/d26ypdu-269646a2-8b8e-45a7-9cd3-8b66a907f5ed.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzEwZDRkNDdhLTQwZWItNGRmYi1hMjFmLWNlZDEyMDBhYmE1MlwvZDI2eXBkdS0yNjk2NDZhMi04YjhlLTQ1YTctOWNkMy04YjY2YTkwN2Y1ZWQucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.ldoYagsQmXimUsx4mt_QaeoRmvGRvLkBB98ZS4UK7Tk);
+    background-position: center;
+    background-size: cover;
+    width: 50vh;
+    height: 50vh;
+}
+
+.row .cl-4{
+    background-image:linear-gradient(rgba(0,0,0, .5),rgba(0,0,0, .5)),url(https://i.pinimg.com/originals/aa/f2/e3/aaf2e3cbd26b70be590fe542257d43d1.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 50vh;
+    height: 50vh; 
+}
+
+.col-md-6 h3 {
+    border-left: 5px solid green !important;
+}
+
+
+.secondary-bg {
+    background:rgb(20, 20, 20);
+}
+
+.newspaper {
+    column-count: 3;
+    column-gap: 40px;
+    column-rule: 2px groove  rgb(20, 20, 20) ;
+}
+
+.col-md-6 p {
+    margin-left: .7rem;
+}
+
+.container-fluid{
+    margin-top: 5rem !important;
+}
+
+.layout  .container-fluid{
+    background-image: linear-gradient(rgba(0,0,0 , .7),rgba(0,0,0, .6)) ,url(https://stadyumlar.net/wp-content/uploads/2019/10/Sakarya-Atatürk-stadı-4.jpg);
+    background-size: cover;
+    background-position: center
+    ;
+    height: 75vh;
+    width: auto;
+} 
+
+.container-fluid h1{
+    display: block !important;
+} 
+
+.card-body {
+    color:white ;
+}
+
+.card-footer .bi , p {
+    color: white;
+}
