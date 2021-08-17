@@ -1,0 +1,56 @@
+.navbar-item a {
+    color: black;
+    transition: .4s ease-in ;
+}
+
+.navbar-item a:hover {
+    color: rgb(0, 0, 0) !important;
+}
+
+.container-fluid .bi {
+    color:#FF8C00;
+    font-size: 2rem;
+}
+
+/* SERVİCES */
+
+.icon .bi {
+    color:#FF8C00;
+    font-size: 3rem;
+}
+
+#features  {
+    margin-left: 8rem !important;
+    margin-right: 8rem !important;
+}
+
+.desc h4 {
+    font-weight: 700;
+}
+
+/*  CARDS */
+ul li {
+    list-style: none;
+}
+
+.card-header {
+    background-color: #DDD !important;
+}
+
+/*  FOOTER S*/
+.footer {
+    background-color:#DDD ;
+}
+
+#privacy-link a{
+    text-decoration: none;
+    color: black;
+    font-size:1.3rem;
+    text-shadow: gray 9px 8px 5px;
+    transition: .5s ease-in;
+}
+
+#privacy-link a:hover {
+    color:#e48717;
+
+}
