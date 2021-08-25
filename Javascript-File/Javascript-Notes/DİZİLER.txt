@@ -1,0 +1,167 @@
+					---- Operatörler -----
+
+	Matematiksel operatörler
+var a = 5 + 6;	// toplama operatörü
+var b = 5 - 6;	// çıkarma operatörü
+var c = 5*6;	// çarpma operatörü
+var d = 5/6;	// bölme operatörü
+var e = 5%6;	// mod alma operatörü
+var f = ++a;	// önden 1 arttırma operatörü, a'nın değerini 1 arttırır, sonra bu değeri f'ye atar.
+var g = a++;	// sondan 1 arttırma operatörü a'yı g'ye atar, sonra a'nın değerini 1 arttırır.
+var h = --a;	// önden 1 eksiltme operatörü a'nın değerini 1 eksiltilir, sonra bu değeri h'ye atar.
+var i = a--;	// sondan 1 eksiltme operatörü a'yı i'ye atar, sonra a'nın değerini 1 eksiltir.
+			
+
+	Atama operatörleri
+var a;
+a = 0;	// normal atama
+a += 6;	// toplayarak atama. a = a+6'ya denk.
+a -= 6;	// çıkararak atama. a = a-6'ya denk.
+a *= 6;	// çarparak atama. a = a*6'ya denk.
+a /= 6;	// bölerek atama. a = a/6'ya denk.
+a %= 6;	// mod alarak atama. a = a%6'ya denk.
+
+
+
+	String operatörleri
+var s="metin1 "+"metin2";	// metinleri yanyana eklemeye yarar.
+NOT: + operatörüyle bir string ve bir sayıyı kullanırsanız sonuç bir string olur ve stringle sayının yanyana getirilmiş hâli üretilir.
+
+
+
+
+	Karşılaştırma operatörleri
+var a = 5, b = "5";
+var c = a == b;	// a ile b'nin değerleri eşit mi? burada c'ye true değeri atanır.
+c = a === b;	// a ile b'nin değerleri ve türleri aynı mı? c'nin değeri false olur.
+c = a != b;	// a ile b eşit değil mi?
+c = a > b;	// a, b'den büyük mü?
+c = a < b;	// a, b'den küçük mü?
+c = a >= b;	// a, b'den büyük veya b'ye eşit mi?
+c = a <= b;	// a, b'den küçük veya b'ye eşit mi?
+
+
+
+	Mantıksal operatörler
+var a = true, b = false;
+var c = a&&b;	// a ve b'nin ikisi de true ise true, aksi hâlde false üretir.
+c = a||b;	// a ve b'nin en az birisi true ise true, aksi hâlde false üretir.
+c =!a;		// a'nın değeri true ise false, false ise true üretir.
+	
+		
+	
+	Koşul operatörü
+var a = true;
+var c = a ? "a true" : "a false";
+Bu örnekte a ? "a true" : "a false" ifadesi, a'nın tuttuğu değer true ise a true değerini a'nın tuttuğu değer false ise a false değerini tutar.
+
+
+
+
+					----- DİZİLER -----
+
+
+Diziler birden fazla verinin saklanmasıiçin oluşturulan değişkenlere dizi denir .Dizilerin oluşturulmasındaki temel düşünce birden fazla veriye tek bir değişken altından erişebilmektedir. 
+
+Değişkenlerdeki her bir veriye eleman denir. Dizi elemanları indeks değerleri ile çalışılır. İndeks elemanın dizi içinde nerede olduğunu gösterir.
+
+İndeksler 0 'dan başlar .
+
+let age= [12,34,22];
+console.log(age);
+
+let mix =["Sakarya", 123, undefined , NaN , "spor " , "cinema"  ];
+console.log(mix);
+
+
+Get array item  : herhangi bir item bulmak istersek .
+
+console.log(hobbies[0]);
+console.log(mix[4]);
+
+
+
+		--> Dizi elemanlarını değiştirme  (Set array item)
+Mix dizisindeki herhangi bir değeri değiştirmezsek istersek indeks değerini yazdıktan sonra yeni değeri atamamız gerekir .
+mix[2]= "book" ;
+
+Undefined elemanı  yerine book elemanıyla değiştiriyoruz .
+Eğer daha farklı bir indexe atarsak diğer index değerleri empty(boş) olarak atanır .
+
+
+		--> Diziye yeni eleman ekleme (Add item)
+
+Push() metodu : Js' de dizinin sonuna eleman eklemek için kullanılır .
+
+- age.push(24);
+
+unshift() metodu :Bu metod jsde dizinin başına eleman eklemek için kullanılır .
+
+- hobbies.unshift("code");
+
+Hobilerin başına code elemanını atar .
+
+
+		--> Diziden eleman silme 
+
+splice() metodu :Splice dilimizde iki ucu birbirine birleştirmek gibi bir anlaama gelmektedir.Js'de ise belirtlilen index değerinden sonra silinecek eleman ya da elemanlar için kullanılır. 
+Splice metodunda replace'de olduğu iki parametre vardır. İlk parametre silinecek indeks konumunu , ikinci parametre ise indeksten sonra kaç adet elemanın silineceği belirtir .
+
+- hobbies.splice(0);
+code değerini sileriz . 
+
+- hobbies.splice(0,2);
+0 ve 2 ' ye kadar indekstekileri siler. 
+
+
+pop() ve shift() : pop metodu dizinin son elemanını  , shift metodu ise dizinin ilk elemanını silmeye yarar.
+
+delete operatörü : Bu operatör ilgili elemanı listeden çıkartır ve yerine tanımsız bir eleman atar .Diğer bir ifade ile ilgili indekse ait elemanı tanımsız yapar .
+İndeks siliinir fakat kaldırılmaz . Yerine tanımsız bir değişken atanır . 
+
+
+		--> Diziden eşzamanlı olarak eleman silme ve ekleme 
+
+Splice() fonksiyonunu kullanıyoruz .Fakat bu sefer iki parametreden sonra sildiğimiz elemanların  yerine gelecek elemanları yazıyoruz .
+
+- var sayilar =["sıfır","bir","iki", "üç"];
+sayilar.splice(0,2, "zınzın","zunzun","zonzon");
+
+>> zınzın,zunzun,zonzon,üç 
+
+
+
+		-->Dizierin birleştirilmesi 
+
+concat() metodu : Birden fazla diziyi birleştirmek için kullanılır .
+
+
+		--> Elemanların sıralanması 
+sort() metodu :Dizi elemanlarını küçükten büyüğe göre sıralamak için kullanılır.
+ 
+<script>
+    var sayilar = ["sıfır", "bir", "iki", "üç"];
+    document.write(sayilar.sort());
+</script>
+
+ Örneğimizde sort() metodu ile elemanlarımızı  alfabetik sıraya göre sıraladık . Elemanların indeks konumları da değişecektir .
+
+>>bir ,iki,sıfır,üç 
+
+
+reverse() metodu: Dizi elemanlarını tersten sıralamak için kullanılır .
+ 
+
+		--> Dizide değişken aramak
+indexof() metodu :Çok fazla elemanın olduğu  bir dizide kullanılabilir . Herhangi bir elemanı aramak için kullanılır. 
+
+var sayilar =["sıfır","bir","iki","üç"];
+sayilar.indexof("iki");
+
+>> 2  
+
+İki adlı elemanın nerede olduğunu sorgulattık .Çıktımız ise bu şekide indeks numarasını sorgulattık.
+
+
+
+
